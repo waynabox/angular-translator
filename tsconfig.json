@@ -8,11 +8,7 @@
     "experimentalDecorators": true,
     "removeComments": false,
     "declaration": true,
-    "noImplicitAny": false,
-    "typeRoots": [
-      "node_modules/@types",
-      "typings"
-    ]
+    "noImplicitAny": false
   },
   "exclude": [
     "node_modules"
