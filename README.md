@@ -4,8 +4,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/tflori/angular-translator/badge.svg?branch=master)](https://coveralls.io/github/tflori/angular-translator?branch=master)
 [![npm version](https://badge.fury.io/js/angular-translator.svg)](https://badge.fury.io/js/angular-translator)
 
-`angular-translator` is a simple translation service for angular applications. It should support all necessary
-features for translation. Like interpolation, references to other translations, modules and loaders.
+This repo is a fork from angular-translator but with working SSR version
 
 ## Features
 
