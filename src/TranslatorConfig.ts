@@ -40,7 +40,7 @@ export const COMMON_PURE_PIPES_MAP: { [key: string]: Type<PipeTransform> } = {
 };
 
 export class TranslatorConfig {
-    public static navigator: any = window && window.navigator ? window.navigator : {};
+    public static navigator: any = typeof window === "object" && window.navigator ? window.navigator : {};
 
     private static isoRegEx = /^([A-Za-z]{2})(?:[.\-_\/]?([A-Za-z]{2}))?$/;
 

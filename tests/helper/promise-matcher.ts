@@ -23,7 +23,7 @@ export class PromiseMatcher {
     private _global: any;
 
     constructor() {
-        this._global = window || global;
+        this._global = typeof window === "object" && window || global;
         this._originalPromise = this._global.Promise;
     }
 
